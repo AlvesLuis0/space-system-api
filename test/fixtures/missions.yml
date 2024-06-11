@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+valid:
+  name: Apollo 11
+  launch_date: 1969-07-16
+  destination: Moon
+  status: COMPLETED
+  crew: Neil Armstrong, Michael Collins, Buzz Aldrin
+  duration_in_days: 8
+  cost: 702300000000
+  details: Armstrong and Aldrin collected 47.5 pounds (21.5 kg) of lunar material to bring back to Earth as pilot Michael Collins flew the Command Module Columbia in lunar orbit, and were on the Moon's surface for 21 hours, 36 minutes before lifting off to rejoin Columbia.
