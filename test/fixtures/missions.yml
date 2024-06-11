@@ -9,3 +9,13 @@ valid:
   duration_in_days: 8
   cost: 702300000000
   details: Armstrong and Aldrin collected 47.5 pounds (21.5 kg) of lunar material to bring back to Earth as pilot Michael Collins flew the Command Module Columbia in lunar orbit, and were on the Moon's surface for 21 hours, 36 minutes before lifting off to rejoin Columbia.
+
+invalid:
+  name:
+  launch_date: 3969-07-16
+  destination:
+  status: INVALID_STATUS
+  crew:
+  duration_in_days: 0
+  cost: 0
+  details:
