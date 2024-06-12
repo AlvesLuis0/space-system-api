@@ -5,7 +5,7 @@ class MissionsController < ApplicationController
 
   # GET /missions
   def index
-    @missions = Mission.all
+    @missions = Mission.select(:id, :name, :launch_date, :destination, :status).order(launch_date: :desc)
     render json: @missions
   end
 
