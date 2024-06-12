@@ -5,7 +5,13 @@ class MissionsController < ApplicationController
 
   # GET /missions
   def index
-    @missions = Mission.select(:id, :name, :launch_date, :destination, :status).order(launch_date: :desc)
+    @start_date = params[:start_date]
+    @end_date = params[:end_date]
+    @missions = Mission
+                .select(:id, :name, :launch_date, :destination, :status)
+                .order(launch_date: :desc)
+    @missions.where!('launch_date >= ?', @start_date) if @start_date.present?
+    @missions.where!('launch_date <= ?', @end_date) if @end_date.present?
     render json: @missions
   end
 
