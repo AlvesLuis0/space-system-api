@@ -38,6 +38,14 @@ the planning, monitoring and execution of space missions, from the launch until 
 
 ```bash
 git clone https://github.com/alvesluis0/space-system-api
+cd space-system-api
+```
+
+Create a `.env` file with the POSTGRESQL_USERNAME and POSTGRESQL_PASSWORD environment variables:
+
+```env
+POSTGRESQL_USERNAME=your_username
+POSTGRESQL_PASSWORD=StrongPassword@123
 ```
 
 <h3>Starting</h3>
@@ -45,7 +53,7 @@ git clone https://github.com/alvesluis0/space-system-api
 How to start your project
 
 ```bash
-cd space-system-api
+docker compose up -d
 bundler install
 rails db:create
 rails db:migrate
