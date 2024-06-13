@@ -9,12 +9,12 @@ default: &default
 
 development:
   <<: *default
-  database: spacial_system_api_development
+  database: space_system_api_development
 
 test:
   <<: *default
-  database: spacial_system_api_test
+  database: space_system_api_test
 
 production:
   <<: *default
-  database: spacial_system_api_production
+  database: space_system_api_production
