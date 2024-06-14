@@ -24,6 +24,7 @@ the planning, monitoring and execution of space missions, from the launch until 
 
 - Ruby on Rails
 - Postgresql
+- Docker
 
 <h2 id="starting">🏁 Starting</h2>
 
@@ -31,7 +32,7 @@ the planning, monitoring and execution of space missions, from the launch until 
 
 - [Git](https://git-scm.com)
 - [Ruby](https://www.ruby-lang.org/en/)
-- [Postgresql](https://www.postgresql.org/)
+- [Docker and Docker Compose](https://www.docker.com/)
 - [Bundler](https://bundler.io/)
 
 <h3>Cloning</h3>
